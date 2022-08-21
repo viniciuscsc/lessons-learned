@@ -2,7 +2,15 @@ body {
     background-color: rgb(253, 251, 251);
 }
 
-.cabecalho {
+#cabecalho {
     position: fixed;
     top: 0;
+    font-family: monospace;
+    font-size: 25px;
+    background-color: white;
+}
+
+#minha_foto {
+    width: 300px;
+    margin-top: 150px;
 }
