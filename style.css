@@ -26,7 +26,7 @@ a {
     display: block;
 }
 
-article {
+.lado-esquerdo {
     font-size: 20px;
     color: darkgreen;
     line-height: 2;
@@ -35,7 +35,7 @@ article {
     display: inline-block;
 }
 
-aside {
+.lado-direito {
     width: 45%;
     display: inline-block;
 }
