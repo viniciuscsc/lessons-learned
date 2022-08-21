@@ -22,9 +22,20 @@ body {
     margin-top: 150px;
 }
 
+a {
+    display: block;
+}
+
 article {
     font-size: 20px;
     color: darkgreen;
     line-height: 2;
     font-family: monospace;
+    width: 45%;
+    display: inline-block;
+}
+
+aside {
+    width: 45%;
+    display: inline-block;
 }
