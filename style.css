@@ -21,3 +21,10 @@ body {
     width: 300px;
     margin-top: 150px;
 }
+
+article {
+    font-size: 20px;
+    color: darkgreen;
+    line-height: 2;
+    font-family: monospace;
+}
