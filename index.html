@@ -5,71 +5,95 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Lições aprendidas</title>
 </head>
 <body>
-    <header id="cabecalho">
-        <h1 id="titulo">TITULO PRINCIPAL</h1>
+
+    <header>
+        <h1>Lições aprendidas - Trybe!</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
     </header>
-    
-    <img src="./foto-perfil.jpg" alt="Foto de rosto Vinicius Cunha" id="minha_foto">
-    
-    <h2>Lições aprendidas</h2>
-    <ol id="licoes_aprendidas">
-        <li>Bash</li>
-        <li>Shell</li>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>Internet</li>
-        <li>JavaScript</li>
-        <li>React</li>
-        <li>Node</li>
-        <li>SQL</li>
-        <li>Python</li>
-    </ol>
 
-    <h2>Lições a aprender</h2>
-    <ul id="licoes_a_aprender">
-        <li>Bash</li>
-        <li>Shell</li>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>Internet</li>
-        <li>JavaScript</li>
-        <li>React</li>
-        <li>Node</li>
-        <li>SQL</li>
-        <li>Python</li>
-    </ul>
-
-    <a href="https://www.betrybe.com/" target="_blank">SITE DA TRYBE</a>
-
-    <article class="lado-esquerdo">
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras augue erat, molestie sit amet consectetur quis, tempor eget sem. Pellentesque efficitur ex quis accumsan suscipit. Proin bibendum rutrum arcu. Donec at augue ut lacus suscipit maximus. Proin bibendum placerat turpis, in auctor elit placerat nec. Vivamus viverra, justo eget vulputate ornare, nisl quam tincidunt ex, et venenatis odio sapien ut enim. Phasellus id mi id erat mattis lectus.
+    <main>
+        <img
+            id="profile-image"
+            src="./profile-image.jpg"
+            alt="Foto de rosto Vinicius Cunha">
+        
+        <p id="linkedin">
+            <a
+                href="https://www.linkedin.com/in/vinicius-csc/"
+                target="_blank">
+                Vinicius Cunha
+            </a>
         </p>
-    </article>
 
-    <aside class="lado-direito">
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pulvinar tortor sed arcu efficitur scelerisque. Pellentesque vel posuere dui, ac suscipit lorem. Sed viverra odio ac tortor rhoncus, sit ex.
-        </p>
-    </aside>
-
-    <table>
-        <tr>
-            <th>Nome</th>
-            <th>Idade</th>
-        </tr>
-        <tr>
-            <td>Fulano</td>
-            <td>21 anos</td>
-        </tr>
-        <tr>
-            <td>Cicrana</td>
-            <td>22 anos</td>
-        </tr>
-    </table>
+        <ul id="lessons">
+            <li id="learned">
+                <h2>Lições aprendidas</h2>
+                <ol>
+                    <li>Bash</li>
+                    <li>Shell</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Internet</li>
+                    <li>JavaScript</li>
+                    <li>React</li>
+                    <li>Node</li>
+                    <li>SQL</li>
+                    <li>Python</li>
+                </ol>
+            </li>
+            <li id="to-learn">
+                <h2>Lições a aprender</h2>
+                <ul>
+                    <li>Bash</li>
+                    <li>Shell</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Internet</li>
+                    <li>JavaScript</li>
+                    <li>React</li>
+                    <li>Node</li>
+                    <li>SQL</li>
+                    <li>Python</li>
+                </ul>
+            </li>
+        </ul>
+          
+        <article class="lado-esquerdo">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras augue erat, molestie sit amet consectetur quis, tempor eget sem. Pellentesque efficitur ex quis accumsan suscipit. Proin bibendum rutrum arcu. Donec at augue ut lacus suscipit maximus. Proin bibendum placerat turpis, in auctor elit placerat nec. Vivamus viverra, justo eget vulputate ornare, nisl quam tincidunt ex, et venenatis odio sapien ut enim. Phasellus id mi id erat mattis lectus.
+            </p>
+        </article>
+    
+        <aside class="lado-direito">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pulvinar tortor sed arcu efficitur scelerisque. Pellentesque vel posuere dui, ac suscipit lorem. Sed viverra odio ac tortor rhoncus, sit ex.
+            </p>
+        </aside>
+    
+        <table>
+            <tr>
+                <th>Nome</th>
+                <th>Idade</th>
+            </tr>
+            <tr>
+                <td>Fulano</td>
+                <td>21 anos</td>
+            </tr>
+            <tr>
+                <td>Cicrana</td>
+                <td>22 anos</td>
+            </tr>
+        </table>
+    </main>    
 
     <footer id="rodape"></footer>
 </body>
